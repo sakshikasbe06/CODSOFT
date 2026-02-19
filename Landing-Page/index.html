@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">Online Portfolio</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="text">
+            <h1>Sakshi Kasbe</h1>
+            <p>I am a final year Computer Science student currently learning HTML, CSS, and JavaScript.
+                This is my internship landing page project built using HTML and CSS.
+            </p>
+            <a href="#contact" class="hire-btn">Hire Me</a>
+        </div>
+
+        <div class="image">
+            <img src="images/profile.jpeg" alt="Sakshi Kasbe Profile Photo">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a final year BCS (Bachelor of Computer Science) student currently learning HTML, CSS, and JavaScript.
+            This project is created for my internship task.
+        </p>
+        <!-- Resume download button -->
+        <a href="files/resume.pdf" download>
+            <button>Download Resume</button>
+        </a>
+
+    </section>
+
+
+    <section class="skills" id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skill-box">
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>JavaScript</div>
+            <div>C programing</div>
+            <div>30 wpm Typing speed</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <p>Email:
+            <a href="mailto:sakshikasbe1226@gmail.com">
+                sakshikasbe1226@gmail.com
+            </a>
+        </p>
+        <p>GitHub:
+            <a href="https://github.com/sakshikasbe06" target="_blank">
+                github.com/sakshikasbe06
+            </a>
+        </p>
+
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        © 2026 Sakshi Kasbe | Portfolio Landing Page
+    </footer>
+
+
+</body>
+
+</html>
