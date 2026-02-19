@@ -1,1 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="menu-toggle">☰</div>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="reveal">
+        <div class="hero-text">
+            <h1>Sakshi Anil Kasbe</h1>
+            <p>Student | Web Developer</p>
+            <a href="resume.pdf" download class="resume-btn">Download Resume</a>
+            <button id="viewResumeBtn">View Resume</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-container reveal">
+        <img src="images/profile.jpeg" class="profile-pic" alt="My Photo">
+
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p> I am a final year student learning web development. I have built projects using HTML, CSS,
+                JavaScript,PHP, and MySQL.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="reveal">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>C language</li>
+            <li>30 wpm Typing speed</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="reveal">
+        <h2>My Projects</h2>
+
+        <div class="project-grid">
+
+            <div class="project-box">
+                <img src="images/portfolio.jpg" class="project-img" alt="Portfolio Website">
+                <h3>Portfolio Website</h3>
+                <p>My personal portfolio showcasing my projects, skills, and certificates.</p>
+            </div>
+
+            <div class="project-box">
+                <img src="images/calculator.jpg" class="project-img" alt="Calculator App">
+                <h3>Calculator App</h3>
+                <p>Simple calculator built using HTML, CSS & JavaScript.</p>
+            </div>
+
+             <div class="project-box">
+                <img src="images/food_website.jpeg" class="project-img" alt="Food Ordering Website">
+                <h3>Food Ordering Website</h3>
+                <p>Online Food Ordering website using HTML, CSS, javascript, php and MySQL</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="reveal">
+        <h2>My Certificates</h2>
+        <div class="certificate-grid">
+            <div class="certificate-card">
+                <img src="images/c_programming.jpeg" alt="C Programming Certificate">
+                <p>C Language Certificate</p>
+            </div>
+
+            <div class="certificate-card">
+                <img src="images/MSCIT.jpeg" alt="C Programming Certificate">
+                <p>MSCIT</p>
+            </div>
+
+            <div class="certificate-card">
+                <img src="images/typing.jpeg" alt="C Programming Certificate">
+                <p>English 30 wpm Typing</p>
+            </div>
+
+            <div class="certificate-card">
+                <img src="images/Web_Technology.jpeg" alt="C Programming Certificate">
+                <p>Web Technology</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Resume Modal (improved for mobile & accessibility) -->
+    <div id="resumeModal" class="modal">
+        <div class="modal-content resume-content">
+            <span class="close resume-close">&times;</span>
+            <iframe src="resume.pdf" title="Sakshi Anil Kasbe Resume"></iframe>
+        </div>
+    </div>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+        <div class="modal-content">
+            <span class="close image-close">&times;</span>
+            <img id="modalImg" alt="Preview">
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="reveal">
+        <h2>Contact Me</h2>
+        <p>Email: sakshikasbe1226@gmail.com</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Sakshi Anil Kasbe. All Rights Reserved.</p>
+        <p>
+            Email: sakshikasbe1226@gmail.com |
+            Portfolio Project
+        </p>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/sakshikasbe06" target="_blank">
+                github.com/sakshikasbe06
+            </a>
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
