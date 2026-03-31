@@ -44,6 +44,8 @@ function calculate() {
         }
         result = prev / curr;
     }
+    else if (operator === '%')
+        result = prev % curr;
 
     currentNumber = result.toString();
     operator = null;
